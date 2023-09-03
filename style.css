@@ -1,0 +1,256 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.home{
+    height: 100%;
+}
+.home .sky_background{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0) 80%, rgba(255,255,255,1)),
+    url(img/cielo.jpeg);
+    background-size: cover;
+    height: 85%;
+    z-index: -10;
+}
+.home .img_background{
+    background: url(img/inicio1.png);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top:0;
+    height: 110%;
+    width: 100%;
+    z-index: 5;
+}
+
+.home .section_content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.home .section_content header{
+    padding: 50px;
+    z-index: 100;
+    position: relative;
+}
+
+.home .section_content header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home .section_content header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.home .section_content header nav a i{
+    font-size: 30px;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 10rem;
+    color: black;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+/* SECTION TOURS */
+
+.tours{
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    margin-top: 100px;
+    z-index: 100;
+}
+
+h2{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.tours > p{
+    color: black;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.tours .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.tours .fila .col{
+    width: 30%;
+}
+
+.tours .fila i{
+    font-size: 35px;
+    color: black;
+    display: inline-block;
+}
+
+.tours .fila p{
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+
+/* SECTION INFO */
+
+.info{
+    position: relative;
+    top: 10%;
+}
+
+.info img{
+    width: 60%;
+    border-radius: 5%;
+}
+
+.info .text{
+    background: rgba(255,255,255,.7);
+    max-width: 600px;
+    border: 2px solid black;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.info .text .p{
+    margin: 10px 0;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.info .text button{
+    background-color: white;
+    border: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* SECCION DESCUBRIR */
+
+.discover{
+    margin-top: 200px;
+}
+
+.discover .contenido-seccion{
+    position: relative;
+    width: 100%;
+}
+.discover .contenido-seccion img{
+    width: 100%;
+}
+.discover .contenido-seccion .info{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    max-width: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 150px;
+}
+.discover .contenido-seccion .info p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.discover .contenido-seccion button{
+    background-color: #fff;
+    border: none;
+    border: 2px solid #334755;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+/* SECCION SURFING */
+.surfing{
+    background: url(img/surfing.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.surfing .posicion{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+/* SECCION SUBSCRIBASE */
+.subscribase{
+    text-align: center;
+    padding: 60px 0;
+}
+.subscribase input{
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #334755;
+    text-align: center;
+}
+/* SECCION ES AHORA */
+.esahora{
+    background: url(img/esahora.png);
+    background-size: cover;
+    height: 100vh;
+}
+.esahora .redes{
+    text-align: center;
+}
+.esahora .redes a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #18385c;
+}
+.esahora .color{
+    color: #18385c;
+}
